@@ -1,10 +1,7 @@
-setup.cfg
-setup.py
-dateinfer/__init__.py
-dateinfer/date_elements.py
-dateinfer/examples.yaml
-dateinfer/infer.py
-dateinfer/ruleproc.py
-dateinfer/tests.py
-LICENSE
-README.md
+include *.in
+include *.txt
+include LICENSE
+include Makefile
+recursive-include docs *.md
+recursive-include pydateinfer *.yaml
+recursive-include pydateinfer *.py
